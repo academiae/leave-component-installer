@@ -1,0 +1,27 @@
+{
+    "name": "academiae/leave-component-installer",
+    "description": "Vanilla Integration for Enrollment Procedure and Workflow",
+    "type": "metapackage",
+    "keywords": ["leave management system"],
+    "homepage": "https://chronicles.codingmatters.io/academe/leave",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Gab Amba",
+            "email": "gamba@gabbydgab.com",
+            "homepage": "http://www.gabbydgab.com/"
+        }
+    ],    
+    "require": {
+        "php": "^5.6 || ^7.0",
+        "roave/security-advisories": "dev-master",
+        "academiae/faculty": "^1.0 || dev-develop"
+    },
+    "extra": {       
+        "zf": {
+            "module": [
+                "Academiae\\Faculty"                
+            ]
+        }
+    }
+}
